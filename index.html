@@ -15,3 +15,42 @@
   
   </style>
 </head>
+<bodyclass="min-h-screen bg-gray-100">
+  <!-- Top Navbar -->
+  <div class="bg-[#B5B5B540] py-2">
+    <header class="flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-0 w-11/12 md:w-10/12 mx-auto">
+
+      <!-- Left Logo & Title -->
+      <div class="flex items-center space-x-2">
+        <img src="./Assets/bangladesh-govt-logo 1.png" alt="BD Logo" class="w-10 h-10">
+        <h1 class="text-lg font-bold text-green-700 leading-none">
+          Emergency<br class="hidden sm:block"> Service
+        </h1>
+      </div>
+
+      <!-- Right Side Buttons -->
+      <div class="flex items-center space-x-3 sm:space-x-4 flex-wrap sm:flex-nowrap justify-center">
+        <!-- Heart Counter -->
+        <div class="flex items-center space-x-1 px-3 py-1 rounded-full bg-[#41FF6B1A]">
+          <span id="fav-value" class="text-black font-medium">0</span>
+          <span class="text-red-500">❤</span>
+        </div>
+
+        <!-- Coin Counter -->
+        <div class="flex items-center space-x-1 px-3 py-1 rounded-full bg-[#41FF6B1A]">
+          <span id="callCoin" class="text-black font-medium">100</span>
+          <span><img class="h-4 w-4" src="./Assets/reward.png" alt=""></span>
+        </div>
+
+        <!--Copy Button -->
+        <div  class="bg-green-600 hover:bg-green-700 text-white px-4 py-1.5 rounded-full font-medium">
+          <span id="copyCount">2</span> <span>Copy</span>
+         
+        </>
+      </div>
+    </header>
+  </div>
+
+</body>
+
+</html>
